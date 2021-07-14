@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* ------------------------Use Everywhere--------------------------- */
+
+h1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: bold;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0826;;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #2D25A0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ------------------------Introduction to site--------------------------- */
+
+.heading{
+    margin-top: 121px;
+    margin-left: 158px;
+}
+
+.heading-image img {
+    width: 556.01px;
+    height: 438px;
+    margin-right: 140.99px;
+    margin-top: 49px;
+    margin-bottom: 86px;
+}
+
+.button {
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+    margin-right: 102px;
+}
+.introduction {
+    width: 50%;
+}
+
+.button a {
+    padding: 10px 24px;
+    background-color: #e02c6d;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 8px;
+    margin-bottom: 169px;
+}
+
+.heading a:hover {
+    transform: scaleX(1.2);
+    transition: transform .5s ease;
+}
+
+/* ------------------------Players Container--------------------------- */
+
+.container-players {
+    margin-top: 70px;
+    margin-bottom: 165px;
+}
+
+.good-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+
+.players {
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 426px;
+    width: 300px;
+    margin: 15px;
+}
+
+.player-image img {
+    width: 100%;
+}
+
+.player-details h3 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #18191F;
+}
+
+/* --------------------Next Matches--------------------- */
+
+.next-matches {
+    margin-top: 20px;
+}
+.next-matches h1 {
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    font-family: 'Poppins', sans-serif;
+}
+.next-matches p {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+.matches {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    border-radius: 20px;
+    grid-column-gap: 5px;
+}
+
+.match {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    border: 5px solid lightgray; 
+    border-radius: 20px;
+    padding: 30px 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.match-picture img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.match-between h3 {
+    text-align: center;
+}
+
+.match-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.match-info span {
+    font-size: 14px;
+}
+
+/* ------------------------Recent News--------------------------- */
+
+.recent-news{
+    margin-top: 100px;
+}
+.recent-news h1 {
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    font-family: 'Poppins', sans-serif;
+}
+
+.recent-news p {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+
+.news-section {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-column-gap: 40px;
+    margin-left: 10%;
+    margin-right: 100px;
+}
+
+.news {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+    border: 5px solid lightgray; 
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+.news-image img {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+
+.news-details h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #18191F;;
+}
+
+/* ------------------------Footer--------------------------- */
+
+.footer {
+    margin-top: 158px;
+    margin-bottom: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-image img {
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.social-icons .fab {
+    margin-right: 14px;
+    height: 32px;
+    width: 32px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------
+For mobile devices 
+------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 650px) {
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+    h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h2 {
+        margin: 0;
+        font-size: 30px;
+    }
+    hr {
+        width: 80%;
+    }
+    .navbar {
+        display: none;
+    }
+
+    header {
+        background-color: #2D25A0;
+        width: 100%;
+    }
+    .heading {
+        margin-top: 112px;
+        margin-left: 16px;
+    }
+    .heading-image img {
+        width: 100%;
+    }
+    .button {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        margin-left: 19px;
+    }
+    .button a {
+        margin-bottom: 0;
+    }
+    .heading a:hover {
+        transform: scaleX(1.2);
+        transition: transform .5s ease;
+    }
+    .introduction {
+        width: 100%;
+    }
+
+    .container-players {
+        margin-top: 47px;
+        margin-bottom: 60px;
+    }
+
+    .good-players {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap: 24px;
+    }
+    .players {
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+    .watch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .watch img {
+        width: 100%;
+        height: 248px;
+    }
+    .watch-heading {
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 329px;
+        height: 299px;
+    }
+    .next-matches, .recent-news {
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 10%;
+    }
+    .next-matches h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .next-matches p {
+        font-size: 16px;
+    }
+    .news-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .recent-news {
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+    .recent-news h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .recent-news p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .matches {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        margin-top: 158px;
+        margin-bottom: 63px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-image img {
+        width: 150px;
+        height: 63px;
+    }
+
+    .social-icons .fab {
+        margin-right: 21.47px;
+        Width: 17.07px; 
+        Height: 17.07px; 
+    }
+    .copyright p {
+        font-size: 18px;
+    }
+}
